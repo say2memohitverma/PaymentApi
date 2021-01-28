@@ -9,9 +9,12 @@ How to Test:
 A. Test with Postman:
 
 1. Open postman
-2. Copy following url in urlbar with post type method
-3. Copy following header in header's bar
-4. Copy following data in body parameter bar
+2. Copy following url in urlbar with post type method :
+http://127.0.0.1:5000/ProcessPayment
+3. Copy following header in header's bar :  
+Content-Type:application/json
+4. Copy following data in body parameter bar : 
+{"CreditCardNumber": "1234123412341234", "CardHolder": "prashant rana", "ExpirationDate": "2022/01/01", "Amount": 100}
 5. Click on send button
 6. Got 200 response and also check flask api cmd promot for request processed
 

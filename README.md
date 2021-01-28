@@ -11,6 +11,7 @@ A. Test with Postman:
 1. Open postman
 2. Copy following url in urlbar with post type method :
 http://127.0.0.1:5000/ProcessPayment
+<img scr=api_screenshot.png/>
 3. Copy following header in header's bar :  
 Content-Type:application/json
 4. Copy following data in body parameter bar : 
